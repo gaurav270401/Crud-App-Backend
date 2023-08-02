@@ -19,7 +19,7 @@ const PORT= process.env.PORT || 8000;
 const username=process.env.DB_Username;
 const password=process.env.DB_Password;
 
-const URL=process.env.MOGODB_URI || `mongodb+srv://${username}:${password}@crud-app.uqoyrsf.mongodb.net/?retryWrites=true&w=majority`;
+const URL=process.env.MONGODB_URI || `mongodb+srv://${username}:${password}@crud-app.uqoyrsf.mongodb.net/?retryWrites=true&w=majority`;
 
 connection(URL);
 

@@ -39,6 +39,6 @@ const counterSchema = mongoose.Schema({
 // userSchema.plugin(AutoIncrement.plugin, 'user');
 
 
-const usertable = mongoose.model('user',userSchema);
+const usertable = mongoose.model('usercrud',userSchema);
 
 export default usertable;
